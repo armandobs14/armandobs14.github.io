@@ -1,0 +1,16 @@
+@media print {
+
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+    }
+
+    div {
+      break-inside: avoid;
+    }
+  }
+
+  header {
+    display: none;
+  }
+}

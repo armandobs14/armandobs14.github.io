@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="print.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Carteitinhas</title>
+</head>
+
+<body class="pattern2">
+  <header class="header">
+    <div class="container">
+      <button id="generate" onclick="gerar()" type="button" class="btn btn-primary">Adicionar carteirinha</button>
+      <button id="btnPrint" onclick="window.print()" type="button" class="btn btn-primary">Imprimir</button>
+    </div>
+  </header>
+  <div class="spacer"></div>
+  <div class="carteira pattern">
+    <div class="frente">
+      <img src="logo.png" alt="Logo">
+      <div class="telefone">
+        <p>(74) 9 9160 7063</p>
+        <p>(74) 9 9971 9487</p>
+        <p>(74) 9 8106 1780</p>
+      </div>
+    </div>
+    <div class="verso">
+      <img src="logo.png" alt="Logo" class="logo">
+      <label>Titular</label>
+      <input placeholder="Titular" type="text" name="titular" class="titular-input">
+
+      <label>Dependente</label>
+      <input placeholder="Dependente" type="text" name="dependente" class="dependente-input">
+
+      <label>Vencimento</label>
+      <input placeholder="Validade" class="validade-input" type="date" name="validade">
+      <p class="aviso">Plano em atraso não tem cobertura</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background: rgb(65, 65, 65);
+  background: linear-gradient(0deg, rgba(65, 65, 65, 1) 0%, rgba(94, 94, 94, 1) 100%);
+}
+
+.container {
+  max-width: 600px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.container .btn,
+.container select {
+  height: 32px;
+  background-color: #337ab7;
+  border-radius: 4px;
+  border: #2e6da4 solid 1px;
+  color: #fff;
+  margin: 5px;
+}
+
+#btnPrint {
+  float: right;
+}
+
+.pattern {
+  background-color: #114802;
+  opacity: 1;
+  background-image: linear-gradient(30deg, #0e3005 12%, transparent 12.5%, transparent 87%, #0e3005 87.5%, #0e3005), linear-gradient(150deg, #0e3005 12%, transparent 12.5%, transparent 87%, #0e3005 87.5%, #0e3005), linear-gradient(30deg, #0e3005 12%, transparent 12.5%, transparent 87%, #0e3005 87.5%, #0e3005), linear-gradient(150deg, #0e3005 12%, transparent 12.5%, transparent 87%, #0e3005 87.5%, #0e3005), linear-gradient(60deg, #0e300577 25%, transparent 25.5%, transparent 75%, #0e300577 75%, #0e300577), linear-gradient(60deg, #0e300577 25%, transparent 25.5%, transparent 75%, #0e300577 75%, #0e300577);
+  background-size: 54px 95px;
+  background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
+}
+
+.pattern2 {
+  background-color: #e9e9e9;
+  opacity: 1;
+  background-image: radial-gradient(#cdcdcd 0.8px, #e9e9e9 0.8px);
+  background-size: 16px 16px;
+}
+
+
+.carteira {
+  width: 600px;
+  height: 250px;
+  flex-direction: row;
+  padding: 15px;
+  display: flex;
+  border: solid 1px #000;
+  border-radius: 4px;
+  margin: 5px auto;
+  justify-content: space-evenly;
+}
+
+.carteira div {
+  justify-content: space-evenly;
+}
+
+/* frente */
+
+.carteira .frente {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.telefone {
+  padding: 5px;
+}
+
+.telefone p {
+  color: #000;
+  text-align: center;
+  font-style: italic;
+  font-size: 12pt;
+  color: #fff;
+}
+
+/* verso */
+
+.carteira .verso {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 250px;
+
+}
+
+.carteira .verso .logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.carteira .verso p {
+  text-align: center;
+}
+
+.carteira .verso label {
+  font-size: 10pt;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px auto;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: #000;
+}
+
+.aviso {
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 10pt;
+}
