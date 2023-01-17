@@ -1,16 +1,15 @@
 .header {
   position: fixed;
   height: 50px;
-  width: 100%;
+  width: 100vw;
   background: rgb(65, 65, 65);
   background: linear-gradient(0deg, rgba(65, 65, 65, 1) 0%, rgba(94, 94, 94, 1) 100%);
 }
 
 .container {
   max-width: 600px;
-  width: 600px;
+  width: 100vw;
   margin: 0 auto;
-  padding: 5px;
 }
 
 .spacer {
