@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+  background: #e0e0e0;
+  color: #fff;
+}
+
+#document {
+  padding: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  background: black;
+  border-radius: 10px;
+}
+
+#mensagem {
+  height: 100px;
+}
